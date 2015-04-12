@@ -4,3 +4,19 @@
 就可以看到程式執行結果
 
 (B)
+when n=1000
+O(nlogn) spend 0s
+O(n*n) spend 0.01s
+when n=10000
+O(nlogn) spend 0s
+O(n*n) spend 1.29s
+when n=100000
+O(nlogn) spend 0.04s
+O(n*n) spend 127.97s
+when n=1000000
+O(nlogn) spend 0.51s
+O(n*n) spend 12860.6s
+
+可以發現兩者時間大約相差n/logn倍
+每次時間複雜度O(n*n)在n每多10倍，時間就會多大約100倍
+所以一個好的排序法真的會差很多
